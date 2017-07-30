@@ -144,7 +144,7 @@ class MyClass {
     companion object { }  // will be called "Companion"
 }
 
-fun MyClass.Companion.foo() {
+fun MyClass.companion.foo() {
     // ...
 }
 ```
